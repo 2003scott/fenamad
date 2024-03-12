@@ -23,7 +23,9 @@ const config: Config = {
                 "homecel" : "url('/images/bg-iniciocel.png')",
                 "about" : "url('/images/bg-about.svg')",
                 "aboutcel" : "url('/images/bg-aboutcel.svg')",
-                "footer" : "url('/images/bg-footer.svg')",
+                "footer" : "url('/images/bg-footer.png')",
+                "turtle" : "url('/images/turtle.svg')",
+                "hacemos" : "url('/images/bg-hacemos.png')",
 
             },
         },

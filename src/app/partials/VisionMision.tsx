@@ -15,7 +15,7 @@ export const VisionMision = () => {
 
                 <img src="/images/line.svg" alt="line" className="mx-auto lg:rotate-90" />
 
-                <div>
+                <div className="relative">
                     <div className="flex items-center justify-center gap-3 lg:justify-start">
                         <img src="/images/icon-flag.svg" alt="Mision" />
                         <h2 className="text-[1.8rem] font-bold text-secondary">Misión</h2>

@@ -5,12 +5,12 @@ import Link from "next/link"
 export const Inicio = () => {
     return (
         <>
-            <section className="bg-homecel md:bg-home h-screen bg-cover bg-no-repeat lg:bg-bottom grid items-center place-items-center">
-                <div className="pt-[120px] xl:pt-[60px] 2xl:pt-0  container px-5 lg:px-0 text-white space-y-6">
-                    <h2 className="font-bold text-[40px] md:text-[4.375rem] max-w-4xl">
+            <section className="bg-homecel md:bg-home h-screen bg-cover bg-no-repeat  grid items-center place-items-center">
+                <div className="pt-[120px] xl:pt-[60px] 2xl:pt-0  container px-5 2xl:px-0 text-white space-y-6">
+                    <h2 className="font-bold text-[40px] md:text-[4rem] max-w-4xl">
                         {data.title}
                     </h2>
-                    <p className="max-w-xl text-[0.875rem] md:text-[1.125rem] font-light">
+                    <p className="max-w-xl text-[0.875rem] md:text-[1rem] font-light">
                         {data.description}
                     </p>
                     <aside className="flex items-center gap-5">
