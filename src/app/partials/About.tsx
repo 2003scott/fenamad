@@ -2,7 +2,7 @@ import { BiWorld } from "react-icons/bi"
 
 export const About = () => {
     return (
-        <>
+        <div id="nosotros">
             <section className="container px-5 py-10 lg:py-24 2xl:pt-28 flex flex-col items-center justify-center lg:flex-row gap-5 lg:gap-20 bg-aboutcel lg:bg-about bg-no-repeat bg-right-top">
                 <div className="order-2 lg:order-1">
                     <img src="/images/icon-about.png" alt="about" className="" draggable="false"/>
@@ -22,6 +22,6 @@ export const About = () => {
                     </p>
                 </div>
             </section>
-        </>
+        </div>
     )
 }

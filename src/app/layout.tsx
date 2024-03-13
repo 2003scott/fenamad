@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import "./globals.css"
-import { Navbar } from "@/components/navbar"
 import { averia } from "@/fonts"
+import { Navbar } from "@/components/navbar"
 
 export const metadata: Metadata = {
     title: "Fenamad",
@@ -14,7 +14,7 @@ export default function RootLayout({
     children: React.ReactNode
 }>) {
     return (
-        <html lang="en" className="!scroll-smooth">
+        <html lang="es" className="!scroll-smooth">
             <body className={averia.className}>
                 <Navbar />
                 <div>

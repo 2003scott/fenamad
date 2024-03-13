@@ -6,14 +6,14 @@ export const itemMenu = [
     },
     {
         name: "Quienes somos",
-        path: "/nosotros",
+        path: "/#nosotros",
     },
     {
         name: "Que hacemos",
-        path: "/proyectos",
+        path: "/#hacemos",
     },
     {
         name: "Donadores",
-        path: "/noticias",
+        path: "/",
     }
 ]
